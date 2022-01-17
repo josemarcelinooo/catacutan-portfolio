@@ -9,6 +9,10 @@
 	color: white;
 }
 
+.articles {
+	background-color: #001d3d !important;
+}
+
 body {
 	background-color: #001d3d;
 }
@@ -37,6 +41,7 @@ body {
 
 #sectionhome2 {
 	height: 100vh;
+	padding-top: 50px;
 }
 
 h1 {
@@ -47,17 +52,23 @@ h2 {
 	font-size: 45px;
 }
 
-.about-link {
+/*.about-link {
 	width: 175px;
+}*/
+
+#aboutme {
+	padding-top: 50px;
 }
 
 #sectioncontact {
 	height: 100vh;
+	padding-top: 50px;
 }
 
 .navbar-brand {
 	font-size: 40px;
 	font-weight: 700;
+	margin-left: 0;
 }
 
 .nav-link {
@@ -71,7 +82,7 @@ h2 {
 /*	margin-right: 10%;*/
 }
 
-@media only screen and (max-width: 1131px) {
+/*@media only screen and (max-width: 1131px) {
 	* {
 		margin-right: 0;
 		margin-left: 0;
@@ -101,8 +112,274 @@ h2 {
 		display: flex;
 		justify-content: center;
 	}
+}*/
+
+/*@media only screen and (max-width: 320px) {
+	* {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	#sectionhome {
+		height: 100vh;
+		padding-top: 100px;
+	}
+
+	#sectionhomecontainer {
+		padding-top: 0;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: left;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	#personaldesc {
+		font-size: 20px;
+	}
+
+	#homeicon {
+		margin-right: 15px;
+	}
+
+	#factset {
+		flex-direction: column-reverse;
+	}
+
+	#sectionhome2 {
+		height: 175vh;
+	}
+
+	#aboutme {
+		flex-direction: column-reverse;
+	}
+
+	#personalemail {
+		font-size: 15px;
+	}
+
+	#aboutmeimage {
+		height: 225px;
+		width: 300px;
+		padding: 0.5rem
+	}
+
+	#sectionhomecontent {
+		display: flex;
+		flex-direction: column;
+		text-align: left !important;
+	}
+	#homeicons {
+		margin: left;
+		padding: 0;
+	}
+	#imagehome {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
 }
 
 #writing {
 	background-color: #001d3d;
+	padding-top: 50px;
 }
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+	h1 {
+		font-size: 45px;
+	}
+
+	#homeicon {
+		margin-right: 15px;
+	}
+
+	#sectionhome {
+		height: 100vh;
+		padding-top: 100px;
+	}
+
+	#aboutmeimage {
+		height: 265px;
+		width: 350px;
+		padding: 0.5rem
+	}
+
+	#factset {
+		flex-direction: column-reverse;
+	}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	#sectionhome {
+		height: 100vh;
+		padding-top: 100px;
+	}
+
+	#homeicon {
+		margin-right: 15px;
+	}
+
+	#aboutmeimage {
+		height: 300px;
+		width: 400px;
+		padding: 0.5rem
+	}
+
+	#factset {
+		flex-direction: column-reverse;
+	}
+}*/
+
+@media only screen and (max-width: 1440px) {
+	#sectioncontact {
+		padding-left: 0 !important;
+	}
+
+	#sectionhome {
+		height: 100vh;
+		padding-top: 30px;
+	}
+
+	#iconstools {
+		padding: 0;
+	}
+
+	#toolicon {
+		margin: 0;
+	}
+
+	#writing {
+		padding-top: 50px !important;
+	}
+}
+
+@media only screen and (max-width: 1025px) {
+	#aboutmeimage2 {
+		margin-right: 0;
+	}
+
+	#homeicon {
+		margin-right: 25px;
+	}
+
+	#factset {
+		flex-direction: column-reverse;
+	}
+
+	#sectionhome {
+		height: 100vh;
+		padding-top: 30px;
+	}
+
+	#writing {
+		height: 100vh;
+	}
+
+	#sectioncontact {
+		height: 100vh;
+		margin-left: 0;
+		padding-left: 0 !important;
+	}
+
+	#writing {
+		margin-bottom: 500px;
+	}
+
+	#iconstools {
+		padding: 0;
+	}
+
+	#toolicon {
+		margin: 0;
+	}
+
+	.articles {
+		background-color: #001d3d !important;
+	}
+
+}
+
+@media only screen and (min-width: 971px) and (max-width: 1024px) {
+	h1 {
+		font-size: 80px;
+	}
+
+	#sectionhome {
+		height: 100vh;
+		padding-top: 0px;
+	}
+
+	#homeicon {
+		margin-right: 25px;
+	}
+
+	#contactsplit {
+		flex-direction: column;
+	}
+
+	#factset {
+		flex-direction: column-reverse;
+	}
+
+	#iconcontact {
+		margin-right: 50px;
+	}
+
+	#iconstools {
+		padding: 0;
+	}
+
+	#toolicon {
+		margin: 0;
+	}
+
+	.articles {
+		background-color: #001d3d !important;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 970px) {
+	#sectionhomecontainer {
+		display: flex;
+		flex-direction: column-reverse;
+		padding-top: 50px;
+		align-items: center;
+	}
+
+	#sectionhomecontent {
+		text-align: left !important;
+	}
+
+	#sectionhomecontent h1 {
+		font-size: 55px;
+	}
+
+	#homeicons {
+		float: left;
+	}
+
+	#iconstools {
+		padding: 0;
+	}
+
+	#toolicon {
+		margin: 0;
+	}
+
+	#factset {
+		flex-direction: column-reverse;
+	}
+
+	.articles {
+		background-color: #001d3d !important;
+	}
+}
+

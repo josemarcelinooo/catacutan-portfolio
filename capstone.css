@@ -244,7 +244,21 @@ h2 {
 	}
 }
 
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1852px) {
+	.aboutmecontainer {
+		margin-top: 15rem;
+	}
+
+	#sectionhome2 {
+		height: 70vh;
+	}
+
+	#sectionhomecontainer {
+		padding-top: 17.5rem;
+	}
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1851px) {
 	.aboutmecontainer {
 		margin-top: 10rem;
 	}

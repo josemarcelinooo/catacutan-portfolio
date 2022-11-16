@@ -1,0 +1,373 @@
+* {
+	margin: 0;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #001d3d;
+	color: white;
+}
+
+.articles {
+	background-color: #001d3d !important;
+}
+
+body {
+	background-color: #001d3d;
+}
+
+#headerhome {
+	margin-top: 200px;
+	padding-right: 0px;
+
+}
+
+#personaldesc {
+	font-size: 30px;
+}
+
+#sectionhome {
+	height: 100vh;
+}
+
+#sectionhomecontainer {
+	padding-top: 17rem;
+}
+
+#sectionhome2 {
+	height: 100vh;
+}
+
+h1 {
+	font-size: 65px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+#aboutme {
+	
+}
+
+#sectioncontact {
+	height: 100vh;
+	padding-top: 50px;
+}
+
+.navbar-brand {
+	font-size: 40px;
+	font-weight: 700;
+	margin-left: 0;
+}
+
+.nav-link {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+#homeicons {
+	display: flex;
+	float: right;
+}
+
+#writing {
+	padding-top: 50px;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: white;
+	background-color: floralwhite;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1150px) {
+	#imagehome {
+		text-align-last: center;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	#sectioncontact {
+		padding-left: 0 !important;
+	}
+
+	#sectionhome {
+		height: 100vh;
+		padding-top: 5rem;
+	}
+
+	#sectionhome2 {
+		height: 100vh;
+		padding-top: 30px;
+	}
+
+	.toolicon {
+		padding: 0;
+		margin: 0
+	}
+
+	#writing {
+		padding-top: 50px !important;
+	}
+
+	#coretools {
+		padding-top: 0;
+	}
+
+	#othertools {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (min-width: 1151px) {
+	#github {
+		margin-right: 3rem;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	#homeicons {
+		width: 100%;
+		justify-content: center;
+	}
+	#sectionhomecontainer {
+		display: flex;
+		flex-direction:column-reverse;
+		padding-top:50px;
+		align-items: center;
+	}
+
+	#sectionhomecontainer h1 {
+		text-align: center;
+		font-size: 45px;
+	}
+
+	#sectionhomecontainer p {
+		text-align: center;
+		font-size: 35px;
+	}
+
+	#sectionhomecontainer #homeicons {
+		float: center;
+	}
+
+	#sectionhome2 {
+		margin-top: 5rem;
+		margin-bottom: 7.5rem;
+	}
+
+	#aboutme {
+		padding-top: 1rem;
+	}
+
+	.aboutmecontent {
+		display: flex;
+		flex-direction:column
+	}
+
+	.aboutimage{
+		display: flex;
+		flex-direction:column
+	}
+
+	#factset {
+		flex-direction: column-reverse;
+	}
+
+	.homeicon {
+		margin-right: 0rem;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	* {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.homeicon {
+		padding-right: 10px;
+	}
+
+	.iconcontact {
+		padding-right: 10px;		
+	}
+
+	#contactsplit {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.aboutmecontent {
+		display: flex;
+		flex-direction:column;
+	}
+
+}
+
+
+@media only screen and (max-width: 538px) {
+
+	#sectionhomecontainer #homeicons {
+		margin-right: -2px!important;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+	#sectionhomecontainer #homeicons {
+		margin-right: -10px!important;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	#sectionhomecontainer #homeicons {
+		margin-right: -20px!important;
+	}
+}
+
+
+@media only screen and (max-width: 697px) {
+	#aboutme {
+		margin-top: 15rem;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#end {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media only screen and (min-width: 1441px) {
+	.aboutmecontainer {
+		margin-top: 10rem;
+	}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+	#sectionhome2 {
+		margin-bottom: 0rem;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1150px) {
+	.col {
+		margin: 0rem;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+
+	#sectionhomecontainer h1 {
+		font-size: 35px !important;
+	}
+
+	#sectionhomecontainer p {
+		font-size: 20px !important;
+	}
+
+	#sectionhomecontainer #homeicons {
+		margin-right: -32px!important;
+	}
+
+}
+
+@media only screen and (max-width: 625px) {
+	#sectionhomecontainer h1 {
+		text-align: center;
+		font-size: 45px;
+	}
+
+	#sectionhomecontainer p {
+		text-align: center;
+		font-size: 25px;
+	}
+
+	#sectionhomecontainer #homeicons {
+		float: right;
+		margin-right: 20px;
+	}
+
+	.toolicon {
+		width: 100px;
+	}
+
+}
+
+@media only screen and (max-width: 416px) {
+	#aboutme{
+		padding-top: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 355px) {
+	#aboutme{
+		padding-top: 250px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	.toolicon {
+		margin: 0;
+		padding: 0;
+		width: 80px !important;
+		height: 80px !important;
+	}
+
+	#aboutme {
+		padding-top: 50px !important;
+	}
+
+	.contactinfo h1{
+		font-size: 50px !important;
+	}
+
+	#personalemail {
+		font-size: 16px !important;
+	}
+
+	.iconcontact {
+		padding-right: 15px !important;
+	}
+
+	.icontact {
+		font-size: 50px !important;
+	
+	}
+
+	#sectionhomecontainer #homeicons {
+		margin-right: -64px!important;
+	}
+
+	#sectionhomecontainer h1 {
+		text-align: center;
+	}
+
+	#sectionhomecontent {
+		padding: 0rem;
+	}
+
+}
+
+@media only screen and (max-width: 317px) {
+	#aboutme{
+		padding-top: 350px;
+	}
+
+}
+
+@media only screen and (max-width: 255px) {
+	#aboutme{
+		padding-top: 350px;
+	}
+
+}

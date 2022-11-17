@@ -181,6 +181,17 @@ h2 {
 	}
 }
 
+@media only screen and (max-width: 625px) {
+	#aboutme {
+		margin-top: 0rem;
+		padding-top: 0rem;
+	}	
+	
+	#sectionhome2 {
+		margin-bottom: 0rem;
+	}
+}
+
 @media only screen and (max-width: 991px) {
 
 	* {
@@ -206,7 +217,13 @@ h2 {
 
 }
 
-@media only screen and (max-width: 697px) {
+@media only screen and (min-width: 500px) and (max-width: 625px) {
+	#aboutme {
+		margin-top: 0rem;
+	}
+}
+
+@media only screen and (min-width: 626px) and (max-width: 697px) {
 	#aboutme {
 		margin-top: 15rem;
 	}
@@ -296,7 +313,7 @@ h2 {
 	}
 
 	#aboutme {
-		padding-top: 50px !important;
+		padding-top: 0rem !important;
 	}
 
 	.contactinfo h1{

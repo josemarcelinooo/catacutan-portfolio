@@ -130,6 +130,7 @@ h2 {
 	#homeicons {
 		width: 100%;
 		justify-content: center;
+		justify-content: space-evenly;
 	}
 	#sectionhomecontainer {
 		display: flex;
@@ -187,14 +188,6 @@ h2 {
 		margin-left: 0;
 	}
 
-	.homeicon {
-		padding-right: 10px;
-	}
-
-	.iconcontact {
-		padding-right: 10px;		
-	}
-
 	#contactsplit {
 		display: flex;
 		flex-direction: column;
@@ -205,42 +198,17 @@ h2 {
 		flex-direction:column;
 	}
 
-}
-
-
-@media only screen and (max-width: 538px) {
-
-	#sectionhomecontainer #homeicons {
-		margin-right: -2px!important;
+	#end {
+		width: 100%;
+		justify-content: center;
+		justify-content: space-evenly;
 	}
+
 }
-
-
-@media only screen and (max-width: 500px) {
-
-	#sectionhomecontainer #homeicons {
-		margin-right: -10px!important;
-	}
-}
-
-@media only screen and (max-width: 450px) {
-
-	#sectionhomecontainer #homeicons {
-		margin-right: -20px!important;
-	}
-}
-
 
 @media only screen and (max-width: 697px) {
 	#aboutme {
 		margin-top: 15rem;
-	}
-}
-
-@media only screen and (max-width: 991px) {
-	#end {
-		width: 100%;
-		justify-content: center;
 	}
 }
 
@@ -285,11 +253,6 @@ h2 {
 	#sectionhomecontainer p {
 		font-size: 20px !important;
 	}
-
-	#sectionhomecontainer #homeicons {
-		margin-right: -32px!important;
-	}
-
 }
 
 @media only screen and (max-width: 625px) {
@@ -301,11 +264,6 @@ h2 {
 	#sectionhomecontainer p {
 		text-align: center;
 		font-size: 25px;
-	}
-
-	#sectionhomecontainer #homeicons {
-		float: right;
-		margin-right: 20px;
 	}
 
 	.toolicon {
@@ -356,10 +314,6 @@ h2 {
 	.icontact {
 		font-size: 50px !important;
 	
-	}
-
-	#sectionhomecontainer #homeicons {
-		margin-right: -64px!important;
 	}
 
 	#sectionhomecontainer h1 {
